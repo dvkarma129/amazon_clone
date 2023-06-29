@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #screen {
+            /* border: 1px solid black; */
+            width: 100%;
+            height: 610px;
+        }
+
+        #top {
+            /* border: 1px solid red; */
+            height: 55px;
+            width: 100%;
+            background-color: #131921;
+        }
+
+        #nav {
+            /* border: 1px solid red; */
+            height: 40px;
+            width: 100%;
+            background-color: #232F3E;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            /* padding: auto; */
+            align-items: center;
+            cursor: pointer;
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+
+        }
+
+        #nav-left {
+            font-size: 16px;
+            width: 72%;
+            /* border: 1px solid white; */
+            display: flex;
+            justify-content: space-between;
+            /* padding-top: 9px; */
+            border: 1.5px solid transparent;
+        }
+
+        #nav-left>span {
+            padding: 0;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            height: 100%;
+            font-size: 1rem;
+            color: white;
+            list-style: none;
+        }
+
+        #nav-left>span:hover {
+            border: 1.5px solid white;
+
+        }
+
+
+        #nav-right {
+            width: 25%;
+        }
+
+        #nav-right:hover {
+            border: 1px solid white;
+        }
+
+        #body {
+            height: 400px;
+            width: 100%;
+            background-color: rgb(1, 8, 8);
+        }
+
+        #footer {
+            height: 100px;
+            width: 100%;
+            background-color: rgb(23, 61, 61);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="screen">
+        <div id="top">Top</div>
+        <div id="nav">
+            <div id="nav-left">
+                <span>All</span>
+                <span>Amazon MiniTv</span>
+                <span>Sell</span>
+                <span>Best Sellers</span>
+                <span>Today's Deals</span>
+                <span>Mobiles</span>
+                <span>Customer Service</span>
+                <span>Electronics</span>
+                <span>New release</span>
+                <span>Prime</span>
+                <span>Home & Kitchen</span>
+                <span>Amazon Pay</span>
+            </div>
+            <div id="nav-right">
+                <div>
+                    <img src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/SingleTitle/TikuWedsSheru/400x39-SWM_NP._CB602518928_.jpg"
+                        alt="" width="100%" height="100%">
+                </div>
+            </div>
+        </div>
+        <div id="body">Body</div>
+        <div id="footer">Footer</div>
+    </div>
+</body>
+
+</html>
